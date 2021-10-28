@@ -51,7 +51,13 @@ const Section = styled.section`
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(5, 1fr);
-  margin-top: -50px;
+  width: 60%;
+  margin: -50px auto 0;
+  padding: 0 20px;
+
+  @media screen and (max-width: 1023px) {
+    width: 100%;
+  }
 `;
 
 const Home = () => {
