@@ -51,7 +51,7 @@ const Section = styled.section`
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(5, 1fr);
-  margin: 30px 0;
+  margin-top: -50px;
 `;
 
 const Home = () => {
