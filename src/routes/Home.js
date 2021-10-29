@@ -9,6 +9,7 @@ const GET_MOVIES = gql`
       id
       medium_cover_image
       title
+      isLiked @client
     }
   }
 `;
