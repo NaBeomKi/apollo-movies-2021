@@ -21,9 +21,7 @@ const Movie = ({ id, medium_cover_image, title, isLiked }) => {
       <Link to={`/${id}`}>
         <Img src={medium_cover_image} alt={title} />
       </Link>
-      <button onClick={isLiked ? null : likeMovie}>
-        {isLiked ? "Unlike" : "Like"}
-      </button>
+      <button onClick={likeMovie}>{isLiked ? "Unlike" : "Like"}</button>
     </div>
   );
 };
